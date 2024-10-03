@@ -15,7 +15,7 @@ int main()
 		
 		else{
 		
-		printf("*       *\n", i+64,i+68);	
+		printf("*       *\n");	
 			
 		} 
 		
