@@ -9,15 +9,6 @@ int main() {
     printf("Enter a string: ");
     fgets(str, sizeof(str), stdin);
 
-    char *newline = str;
-    while (*newline != '\0') {
-        if (*newline == '\n') {
-            *newline = '\0';
-            break;
-        }
-        newline++;
-    }
-
     char *ptr = str;
     while (*ptr != '\0') {
         length++;
